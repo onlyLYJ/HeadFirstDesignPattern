@@ -1,4 +1,4 @@
-package StrategyPattern;
+package DuckClass;
 
 import static util.Print.*;
 

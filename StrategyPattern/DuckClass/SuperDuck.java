@@ -1,4 +1,4 @@
-package StrategyPattern;
+package DuckClass;
 
 import FlyBehavior.RocketPoweredFly;
 import QuackBehavior.Quack;
