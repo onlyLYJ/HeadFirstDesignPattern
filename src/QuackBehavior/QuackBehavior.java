@@ -1,4 +1,4 @@
-package BehaviorPattern;
+package QuackBehavior;
 
 public interface QuackBehavior {
 

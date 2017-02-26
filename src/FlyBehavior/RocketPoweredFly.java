@@ -1,4 +1,4 @@
-package BehaviorPattern;
+package FlyBehavior;
 import static util.Print.*;
 
 public class RocketPoweredFly implements FlyBehavior {

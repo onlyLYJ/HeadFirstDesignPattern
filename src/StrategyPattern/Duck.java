@@ -1,8 +1,11 @@
-package BehaviorPattern;
+package StrategyPattern;
 
 import static util.Print.*;
 
-public class Duck {
+import FlyBehavior.FlyBehavior;
+import QuackBehavior.QuackBehavior;
+
+public abstract class Duck {
 	
 	
 	public QuackBehavior getQuackBehavior() {
@@ -38,8 +41,6 @@ public class Duck {
 	
 
 	public Duck() {
-		this.quackBehavior = null;
-		this.flyBehavir = null;
 	}
 
 	private String name;
@@ -53,12 +54,17 @@ public class Duck {
 		this.name = name;
 	}
 
-
-
-
 	public void performFly() {
-		print(getClass().getSimpleName()+ " " + name + " is ready to fly. ");
 		flyBehavir.fly();
 	}
+	
+	public void performQuack() {
+		quackBehavior.quack();
+	}
+	
+	public void display() {
+		println(getClass().getSimpleName() + " " + name);
+	}
+	
 
 }

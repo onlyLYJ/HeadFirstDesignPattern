@@ -1,4 +1,6 @@
-package BehaviorPattern;
+package StrategyPattern;
+
+import FlyBehavior.RocketPoweredFly;
 
 public class SimUDuckApp {
 
@@ -11,6 +13,7 @@ public class SimUDuckApp {
 		
 		aDuck.setFlyBehavir(new RocketPoweredFly());
 		aDuck.performFly();
+		aDuck.display();
 
 	}
 
