@@ -3,6 +3,7 @@ import DuckClass.NormalDuck;
 import DuckClass.SuperDuck;
 import FlyBehavior.RocketPoweredFly;
 
+
 public class SimUDuckApp {
 
 	public static void main(String[] args) {

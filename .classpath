@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="StrategyPattern"/>
-	<classpathentry kind="src" path="ObserverPattern"/>
+	<classpathentry kind="src" path="strategy"/>
+	<classpathentry kind="src" path="observer"/>
+	<classpathentry kind="src" path="command"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
